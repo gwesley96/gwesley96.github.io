@@ -21,7 +21,7 @@ repository               : "gwesley96/gwesley96.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : # "profile.png"
+  avatar           : "profile.png"
   name             : "Greyson C. Wesley"
   pronouns         : # example: "she/her"  
   bio              : "Mathematics PhD student"
