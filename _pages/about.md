@@ -1,6 +1,7 @@
 ---
 permalink: /
-title: "Greyson Wesley - About"
+title: "About"
+layout: archive
 author_profile: true
 redirect_from: 
   - /about/
