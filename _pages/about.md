@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 ---
 
+{% include base_path %}
 
 About
 ======
@@ -16,3 +17,6 @@ I am a second-year mathematics PhD student at [The Ohio State University](https:
 Research
 ======
 My interests lie in the intersection of mathematical physics, (higher) category theory, and algebraic topology.
+
+------
+Test
