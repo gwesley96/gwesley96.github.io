@@ -1,6 +1,6 @@
 ---
-permalink: /about/
-title: "About - Greyson Wesley"
+permalink: /
+title: "Greyson Wesley - About"
 author_profile: true
 redirect_from: 
   - /about/
