@@ -79,8 +79,8 @@ publication_category:
     title: 'Journal Articles'    
   preprints:
     title: 'Preprints'
-  # books:
-  #   title: 'Books'
+  books:
+    title: 'Books'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -211,18 +211,18 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  # teaching:
-  #   output: true
-  #   permalink: /:collection/:path/
+  teaching:
+    output: true
+    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  # portfolio:
-  #   output: true
-  #   permalink: /:collection/:path/
-  # talks:
-  #   output: true
-  #   permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
