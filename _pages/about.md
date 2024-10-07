@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /
 title: "Greyson Wesley - About"
 author_profile: true
