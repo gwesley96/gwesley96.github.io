@@ -19,7 +19,7 @@ main:
   #   url: /portfolio/
         
   - title: "Papers"
-    url: /publications/
+    url: /papers/
     
   - title: "CV"
     url: /cv/
