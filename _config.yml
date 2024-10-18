@@ -21,7 +21,7 @@ repository               : "gwesley96/gwesley96.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "2024ProfilePicture.png"
   name             : "Greyson C. Wesley"
   pronouns         : # example: "she/her"  
   bio              : "Mathematics PhD student"
@@ -211,13 +211,7 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
     output: true
     permalink: /:collection/:path/
   talks:

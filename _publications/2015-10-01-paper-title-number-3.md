@@ -1,14 +1,15 @@
 ---
-title: "Paper Title Number 3"
+title: "The Inverse Characteristic Polynomial Problem for Graphs over Finite Fields"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+permalink: /publication/2023-01-01-inverse-characteristic-polynomial
+date: 2023-01-01
+venue: '</i>Published in <i>Recent Research in Polynomials'
+chapter: 'Chapter 6'
+editors: 'F. Ozger (Ed.)'
+paperurl: 'https://intech-files.s3.amazonaws.com/a043Y00000vBvmwQAC/0013950_Authors_Book%20%282023-07-20%2010%3A09%3A11%29.pdf'
+citation: 'C. Johnson, X. Lin, X. Liu, G. Wesley, and S. Zhou. &quot;The Inverse Characteristic Polynomial Problem for Graphs over Finite Fields&quot;. In: F. Ozger (Ed.), <i>Recent Research in Polynomials</i> (2023), Chapter 6.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Let $$\mathbb{F}$$ be a finite field, and let $$G$$ be a graph on $$n$$ vertices. We study the possible characteristic polynomials that may be realized by matrices $$A$$ over a finite field such that the graph of $$A$$ is $$G$$. We focus mainly on the case $$G$$ is a tree $$T$$, not only because trees are computationally simpler, but also because the theory of eigenvalue multiplicities is much better understood for trees than it is for general graphs. We demonstrate the applications to this problem by branch duplication and the recently developed geometric Parter–Wiener, etc. theory. We end with a list of several conjectures which should pave the way for future study.
+

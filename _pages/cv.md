@@ -11,54 +11,131 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
+
+<div style="display: flex; justify-content: space-between; margin-top:20px">
+    <span><strong>The Ohio State University</strong></span>
+    <span><i>Columbus, OH, USA</i></span>
+</div>
+<div style="display: flex; justify-content: space-between;">
+    <span>Mathematics PhD student</span>
+    <span><i>July 2023–May 2023 (Expected)</i></span>
+</div>
+<div style="display: flex; justify-content: space-between;">
+<span>Doctoral advisor: <a href="https://people.math.osu.edu/penneys.2/" target="_blank">David Penneys</a>
+</span>
+</div>
+
+
+<div style="display: flex; justify-content: space-between; margin-top: 30px">
+    <span><strong>University of Notre Dame</strong></span>
+    <span><i>Notre Dame, IN, USA</i></span>
+</div>
+<div style="display: flex; justify-content: space-between;">
+    <span>Bachelor of Science (with distinction)</span>
+    <span><i>August 2019–May 2023</i></span>
+</div>
+<div>
+    <span><strong>Majors (3):</strong> Honors Mathematics; Physics; Philosophy</span>
+</div>
+<div>
+    <span>Thesis: <i>Lifting Projective Representations and Bargmann’s Theorem</i></span>
+</div>
+<div>
+    <span>Thesis advisor: <a href="https://www3.nd.edu/~bhall" target="_blank">Brian C. Hall</a></span>
+</div>
+
+<div style="margin-top:20px;"></div>
+
+
+Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+<div style="display: flex; justify-content: space-between; margin-top:20px">
+    <span><strong>Notre Dame Department of Mathematics</strong></span>
+</div>
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+<div style="display: flex; justify-content: space-between;">
+    <span>Proof-Based Math Tutor in Notre Dame’s “Math Bunker”</span>
+    <span><i>August 2021–May 2023</i></span>
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+    <span>Grader for Honors Analysis I and II</span>
+    <span><i>August 2022–May 2023</i></span>
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+    <span>Notre Dame Math Club Secretary</span>
+    <span><i>August 2022–May 2023</i></span>
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+    <span>Grader for Honors Calculus I and II</span>
+    <span><i>August 2021–May 2022</i></span>
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+    <span>Directed Reading Program</span>
+    <span><i>September 2021–April 2022</i></span>
+</div>
+
+<!-- <div style="display: flex; justify-content: space-between;">
+    <span>Research in Combinatorics</span>
+    <span>November 2020–July 2021</span>
+</div> -->
+
+<div style="display: flex; justify-content: space-between;">
+    <span>Notre Dame Math Club Member</span>
+    <span><i>August 2019–May 2023</i></span>
+</div>
+
+<div style="display: flex; justify-content: space-between; margin-top:20px">
+    <span><strong>College of William & Mary</strong></span>
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+    <span>Research Collaboration with Prof. Charles R. Johnson</span>
+    <span><i>May 2022–August 2022</i></span>
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+    <span>NSF REU in Matrix Analysis and Combinatorics</span>
+    <span><i>June 2021–August 2022</i></span>
+</div>
+
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+<div style="margin-top:20px;"></div>
 
-Publications
+Papers
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
-Teaching
+   -->
+
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
-Service and leadership
+<!-- Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
+
+<div style="margin-top:20px;"></div>
+
+Skills and Interests
+======
+  - **Primary Mathematical Interests:** Algebraic topology, (higher) category theory, mathematical physics
+
+  - **Software/Typesetting:** Python, $$\LaTeX\,2_{\Large\varepsilon}$$, Ti*k*Z, Sage, Mathematica, Java, HTML, CSS, Markdown
+
+  - **Languages:** English (Native), Spanish (Proficient), Swedish (Intermediate), French (Scholarly)
