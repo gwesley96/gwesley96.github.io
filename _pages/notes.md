@@ -10,4 +10,6 @@ published: true
 
 - [Kan extensions](KanExtensions)
 
-- [Algebraic topology](AlgebraicTopology)
+<!-- - [Algebraic topology](AlgebraicTopology) -->
+
+- [Representability](Representability)
