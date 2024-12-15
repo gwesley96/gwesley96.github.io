@@ -13,5 +13,3 @@ I am a second-year mathematics PhD student at [The Ohio State University](https:
 Research
 ======
 My interests lie in the intersection of algebraic topology, (higher) category theory, and mathematical physics.
-
-My Erdős number is 3. 
