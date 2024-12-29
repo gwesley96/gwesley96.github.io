@@ -19,7 +19,7 @@ Education
 </div>
 <div style="display: flex; justify-content: space-between;">
     <span>Mathematics PhD student</span>
-    <span><i>July 2023–May 2023 (Expected)</i></span>
+    <span><i>July 2023–May 2029 (Expected)</i></span>
 </div>
 <div style="display: flex; justify-content: space-between;">
 <span>Doctoral advisor: <a href="https://people.math.osu.edu/penneys.2/" target="_blank">David Penneys</a>
