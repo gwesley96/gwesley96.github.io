@@ -8,14 +8,19 @@ redirect_from:
 published: true
 ---
 
-- [Kan extensions](KanExtensions)
+### Algebraic higher (unitary) categories and more
+
+
 
 <!-- - [Algebraic topology](AlgebraicTopology) -->
 
-- [Representability](Representability)
+### Brief notes
+- [Kan extensions](files/KanExtensions.pdf)
 
-- [Canonical quantization](CanonicalQuantization)
+- [Representability](files/Representability.pdf)
 
-Longer notes
+- [Canonical quantization](files/CanonicalQuantization.pdf)
 
-- [Algebraic topology, tersely](gwesley96/gwesley96.github.io/files/AT.pdf)
+### Longer notes
+
+- [Algebraic topology, tersely](files/AT.pdf)
