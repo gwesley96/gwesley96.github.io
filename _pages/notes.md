@@ -13,3 +13,5 @@ published: true
 <!-- - [Algebraic topology](AlgebraicTopology) -->
 
 - [Representability](Representability)
+
+- [Canonical quantization](CanonicalQuantization)
