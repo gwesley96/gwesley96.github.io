@@ -9,6 +9,7 @@ date: 2022-03-02
 venue: '</i>Published in <i>Journal of Integer Sequences'
 paperurl: 'https://cs.uwaterloo.ca/journals/JIS/VOL25/Galvin/galvin2.html'
 citation: 'David Galvin, Greyson Wesley, and Bailee Zacovic. &quot;Enumerating Threshold Graphs and Some Related Graph Classes&quot;. <i>Journal of Integer Sequences</i>. 25 (2022), Article 22.2.7.' 
+published: false
 ---
 
 We give combinatorial proofs of some enumeration formulas involving labelled threshold, quasi-threshold, loop-threshold and quasi-loop-threshold graphs. In each case we count by number of vertices and number of components. For threshold graphs, we also count by number of dominating vertices, and for loop-threshold graphs we count by number of looped dominating vertices. We also obtain an analog of the Frobenius formula (connecting Eulerian numbers and Stirling numbers of the second kind) in the context of labelled threshold graphs.
