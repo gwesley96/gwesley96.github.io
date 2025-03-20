@@ -18,8 +18,8 @@ main:
   # - title: "Teaching"
   #   url: /teaching/    
   
-  - title: "Papers"
-    url: /papers/
+  # - title: "Papers"
+  #   url: /papers/
     
   - title: "Blog"
     url: /blog/
