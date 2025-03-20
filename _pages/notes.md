@@ -15,3 +15,7 @@ published: true
 - [Representability](Representability)
 
 - [Canonical quantization](CanonicalQuantization)
+
+Longer notes
+
+- [Algebraic topology, tersely](gwesley96/gwesley96.github.io/files/AT.pdf)
