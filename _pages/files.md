@@ -7,13 +7,23 @@ redirect_from:
 published: true
 layout: archive
 ---
-<ul>
-  {% for file in site.static_files %}
-    {% if file.path contains '/files/' %}
-      <li>
-        <a href="{{ file.path | relative_url }}">{{ file.name }}</a>
-        (Last updated: {{ file.modified_time | date: "%Y-%m-%d at %I:%M %p" }} ET)
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Last modified</th>
+      <th>Size</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign math_files = site.static_files | where: 'path', '/math/' %}
+    {% for file in math_files %}
+      <tr>
+        <td><a href="{{ file.path | relative_url }}">{{ file.name }}</a></td>
+        <td>{{ file.modified_time | date: "%Y-%m-%d %H:%M" }}</td>
+        <td>{{ file.size | divided_by: 1024 }} KB</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
