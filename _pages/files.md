@@ -12,7 +12,7 @@ layout: archive
 
 <!-- - [Algebraic topology](AlgebraicTopology) -->
 ### Algebraic higher (unitary) categories and more
-- [Algebraic higher (unitary) categories and more](files/AlgebraicHigherCategories.pdf)
+- [Algebraic higher (unitary) categories and more](AlgebraicHigherCategories.pdf)
 
 ### Brief notes
 - [Kan extensions](KanExtensions.pdf)
@@ -23,7 +23,6 @@ layout: archive
 
 ### Longer notes
 - [Algebraic topology, tersely](AlgebraicTopologyTersely.pdf)
-
 
 ### All files
 <table>
