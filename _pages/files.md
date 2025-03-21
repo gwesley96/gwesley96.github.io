@@ -1,10 +1,10 @@
 ---
-title: "Files"
+title: "Notes"
 permalink: /files/
 author_profile: true
 redirect_from:
   - /files/
-  - /notes
+  - /notes/
 published: true
 layout: archive
 ---
