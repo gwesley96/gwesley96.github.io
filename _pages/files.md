@@ -4,10 +4,28 @@ permalink: /files/
 author_profile: true
 redirect_from:
   - /files/
+  - /notes
 published: true
 layout: archive
 ---
 
+
+<!-- - [Algebraic topology](AlgebraicTopology) -->
+### Algebraic higher (unitary) categories and more
+- [Algebraic higher (unitary) categories and more](files/AlgebraicHigherCategories.pdf)
+
+### Brief notes
+- [Kan extensions](KanExtensions.pdf)
+
+- [Representability](Representability.pdf)
+
+- [Canonical quantization](CanonicalQuantization.pdf)
+
+### Longer notes
+- [Algebraic topology, tersely](AlgebraicTopologyTersely.pdf)
+
+
+### All files
 <table>
   <thead>
     <tr>
