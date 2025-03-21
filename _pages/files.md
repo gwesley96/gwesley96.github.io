@@ -17,7 +17,7 @@ layout: archive
     </tr>
   </thead>
   <tbody>
-    {% assign math_files = site.static_files | where: 'path', '/math/' %}
+    {% assign math_files = site.static_files | where: 'path', '/files/' %}
     {% for file in math_files %}
       <tr>
         <td><a href="{{ file.path | relative_url }}">{{ file.name }}</a></td>
