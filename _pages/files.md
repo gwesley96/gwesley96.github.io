@@ -8,22 +8,10 @@ published: true
 layout: archive
 ---
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Last modified</th>
-      <th>Size</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% assign math_files = site.static_files | where: 'path', '/files/' %}
-    {% for file in math_files %}
-      <tr>
-        <td><a href="{{ file.path | relative_url }}">{{ file.name }}</a></td>
-        <td>{{ file.modified_time | date: "%Y-%m-%d %H:%M" }}</td>
-        <td>{{ file.size | divided_by: 1024 }} KB</td>
-      </tr>
-    {% endfor %}
-  </tbody>
-</table>
+<ul>
+  {% assign files_in_directory = site.static_files | where_exp: "file", "file.path contains '/files/'" %}
+  {% assign sorted_files = files_in_directory | sort: "modified_time" | reverse %}
+  {% for file in sorted_files %}
+    <li><a href="{{ file.path | relative_url }}">{{ file.name }}</a> (Last updated: {{ file.modified_time | date: "%Y-%m-%d at %H:%M %Z" }})</li>
+  {% endfor %}
+</ul>
