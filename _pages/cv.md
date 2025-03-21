@@ -107,11 +107,11 @@ Experience
   
 <div style="margin-top:20px;"></div>
 
-Papers
+<!-- Papers
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 <!-- Talks
 ======
@@ -134,7 +134,7 @@ Papers
 
 Skills and Interests
 ======
-  - **Primary Mathematical Interests:** Algebraic topology, (higher) category theory, mathematical physics
+  - **Primary Mathematical Interests:** Mathematical physics, algebraic topology, (higher) category theory, quantum algebra
 
   - **Software/Typesetting:** Python, $$\LaTeX\,2_{\Large\varepsilon}$$, Ti*k*Z, Sage, Mathematica, Java, HTML, CSS, Markdown
 

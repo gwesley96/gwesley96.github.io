@@ -3,7 +3,6 @@ title: "Files"
 permalink: /files/
 author_profile: true
 redirect_from:
-  - /notes/
   - /files/
 published: true
 layout: archive

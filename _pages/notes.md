@@ -8,11 +8,9 @@ redirect_from:
 published: true
 ---
 
-### Algebraic higher (unitary) categories and more
-
-
-
 <!-- - [Algebraic topology](AlgebraicTopology) -->
+### Algebraic higher (unitary) categories and more
+- [Algebraic higher (unitary) categories and more](files/AlgebraicHigherCategories.pdf)
 
 ### Brief notes
 - [Kan extensions](files/KanExtensions.pdf)
@@ -22,5 +20,10 @@ published: true
 - [Canonical quantization](files/CanonicalQuantization.pdf)
 
 ### Longer notes
+- [Algebraic topology, tersely](files/AlgebraicTopologyTersely.pdf)
 
-- [Algebraic topology, tersely](files/AT.pdf)
+
+
+
+
+See all files [here](files.md)
