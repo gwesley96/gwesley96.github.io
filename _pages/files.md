@@ -8,16 +8,12 @@ published: true
 layout: archive
 ---
 
----
-title: "Index of /math"
-permalink: /math/
----
 <table>
   <thead>
     <tr>
       <th>Name</th>
-      <th>Last Modified</th>
-      <th>Size</th>
+      <!-- <th>Last Modified</th>
+      <th>Size</th> -->
     </tr>
   </thead>
   <tbody>
@@ -25,8 +21,8 @@ permalink: /math/
     {% for file in math_files %}
       <tr>
         <td><a href="{{ file.path | relative_url }}">{{ file.name }}</a></td>
-        <td>{{ file.modified_time | date: "%Y-%m-%d %H:%M" }}</td>
-        <td>{{ file.size | divided_by: 1024 | round: 2 }} KB</td>
+        <!-- <td>{{ file.modified_time | date: "%Y-%m-%d %H:%M" }}</td>
+        <td>{{ file.size | divided_by: 1024 | round: 2 }} KB</td> -->
       </tr>
     {% endfor %}
   </tbody>
