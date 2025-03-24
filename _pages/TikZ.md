@@ -1,9 +1,9 @@
 ---
-title: "Notes"
-permalink: /files/
+title: "TikZ"
+permalink: /tikz/
 author_profile: true
 redirect_from:
-  - /files/
+  - /tikz/
   - /notes/
 published: true
 layout: archive
