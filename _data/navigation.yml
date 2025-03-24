@@ -11,6 +11,9 @@ main:
 
   - title: "Notes"
     url: /files/
+
+  - title: "TikZ"
+    url: /TikZ/
     
   # - title: "Talks"
   #   url: /talks/    
