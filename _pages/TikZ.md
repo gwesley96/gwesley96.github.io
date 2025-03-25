@@ -5,7 +5,7 @@ author_profile: true
 redirect_from:
   - /tikz/
   - /notes/
-published: true
+published: false
 layout: archive
 ---
 
