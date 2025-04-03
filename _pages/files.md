@@ -46,4 +46,4 @@ layout: archive
 </table>
 
 ### Useful links 
-- (Taylor's theorem with remainder (single and multivariable))[https://web.archive.org/web/20231207050408/https://www3.nd.edu/~nancy/Math40760/Info/taylor.pdf]
+- [Taylor’s theorem with remainder (single and multivariable)](https://web.archive.org/web/20231207050408/https://www3.nd.edu/~nancy/Math40760/Info/taylor.pdf)
