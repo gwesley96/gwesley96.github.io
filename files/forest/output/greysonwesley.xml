@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>245</fr:anchor>
+    <fr:addr type="user">greysonwesley</fr:addr>
+    <fr:route>greysonwesley.xml</fr:route>
+    <fr:title text="Greyson Wesley">Greyson Wesley</fr:title>
+    <fr:taxon>Person</fr:taxon>
+    <fr:authors />
+    <fr:meta name="external">https://www.greysonwesley.com/</fr:meta>
+    <fr:meta name="institution">The Ohio State University</fr:meta>
+    <fr:meta name="position">PhD student</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Third year PhD student in mathematical physics, quantum algbera, and higher category theory at The Ohio State University University of Cambridge. Formerly an undergraduate student at University of Notre Dame.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter />
+</fr:tree>
