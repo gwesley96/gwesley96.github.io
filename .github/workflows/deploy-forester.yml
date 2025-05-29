@@ -1,0 +1,70 @@
+name: Build and Deploy Forester Site to /tytytyty
+
+on:
+  push:
+    branches:
+      - master # This is the branch in THIS repository that triggers the workflow
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    container:
+      image: ocaml/opam:ubuntu-ocaml-5.1
+      options: --user root # Note: Running as root has security implications. Consider if necessary.
+
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+        # If your Forester source has submodules that need to be checked out:
+        # with:
+        #   submodules: 'recursive' 
+
+      - name: Initialize OPAM, Create OCaml 5.1 Switch, Update, and Install Forester
+        run: |
+          echo -e 'n\nN' | opam init --disable-sandboxing --reinit --bare -y
+          opam switch create default ocaml-base-compiler.5.1.1 -y
+          eval $(opam env)
+          opam update
+          opam install forester -y
+          forester --version
+
+      - name: DEBUG - List files BEFORE build
+        run: |
+          echo "Listing files BEFORE Forester build in $(pwd):"
+          ls -laR
+          echo "--- End of pre-build file listing ---"
+
+      - name: Build Site with Forester
+        run: |
+          eval $(opam env)
+          echo "Running: forester build forest.toml"
+          forester build forest.toml # Ensure forest.toml is at the root or provide correct path
+          echo "Forester build command finished."
+
+      - name: DEBUG - List files AFTER build (especially ./output dir)
+        run: |
+          echo "Listing files AFTER Forester build in $(pwd):"
+          ls -laR
+          echo "--- Looking specifically inside ./output (if it exists) ---"
+          if [ -d "./output" ]; then # Verify Forester's output directory is indeed 'output'
+            echo "Contents of ./output:"
+            ls -laR ./output
+          else
+            echo "./output directory NOT FOUND! Check Forester's build output path."
+          fi
+          echo "--- End of post-build file listing ---"
+
+      - name: Deploy to gwesley96.github.io/tytytyty
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.GH_PAGES_PAT }} # Ensure GH_PAGES_PAT is defined in this repository's secrets
+          external_repository: gwesley96/gwesley96.github.io
+          publish_branch: master # IMPORTANT: Set this to the correct branch of gwesley96.github.io (e.g., main, master, or gh-pages)
+          publish_dir: ./output   # This is the directory Forester builds to. Verify it's correct.
+          target_dir: tytytyty    # Deploys content of publish_dir into this folder in the target repo. Will be created if it doesn't exist.
+          keep_files: true        # Crucial: Prevents deletion of files outside target_dir and unmanaged files inside target_dir.
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'Deploy: Forester site to /tytytyty (automated build)'
+          # allow_empty_commit: false # Default is false. Usually not needed unless you have specific cases.
+          # force_orphan: false # Default is false. keep_files: true should manage history correctly.
