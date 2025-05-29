@@ -155,6 +155,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - wiki
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

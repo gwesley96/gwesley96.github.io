@@ -12,6 +12,9 @@ main:
   - title: "Notes"
     url: /files/
 
+  - title: "Wiki"
+    url: /wiki/
+
   # - title: "TikZ"
   #   url: /tikz/
     
