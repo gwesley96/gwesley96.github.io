@@ -1,6 +1,6 @@
 ---
 title: "Notes"
-permalink: /wiki/index.xml
+permalink: /wiki/
 author_profile: true
 redirect_from:
   - /wiki/
