@@ -13,7 +13,8 @@ main:
     url: /files/
 
   - title: "Wiki"
-    url: wiki.greysonwesley.com
+    url: "https://wiki.greysonwesley.com"
+
 
   # - title: "TikZ"
   #   url: /tikz/
