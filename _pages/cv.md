@@ -132,10 +132,10 @@ Experience
 
 <div style="margin-top:20px;"></div>
 
-Skills and Interests
+<!-- Skills and Interests
 ======
   - **Primary Mathematical Interests:** Mathematical physics, algebraic topology, (higher) category theory, quantum algebra
 
   - **Software/Typesetting:** Python, $$\LaTeX\,2_{\Large\varepsilon}$$, Ti*k*Z, Sage, Mathematica, Java, HTML, CSS, Markdown
 
-  - **Languages:** English (Native), Spanish (Proficient), Swedish (Intermediate), French (Scholarly)
+  - **Languages:** English (Native), Spanish (Proficient), Swedish (Intermediate), French (Scholarly) -->
