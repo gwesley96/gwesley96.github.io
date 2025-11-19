@@ -23,27 +23,27 @@ author:
   # Biographic information
   avatar           : "2024ProfilePicture.png"
   name             : "Greyson C. Wesley"
-  pronouns         : # example: "she/her"  
+  # pronouns         : # example: "she/her"  
   bio              : "Mathematics PhD student"
-  location         : # "Earth"
+  # location         : # "Earth"
   employer         : "The Ohio State University"
-  uri              : # URL
+  # uri              : # URL
   email            : "greysoncwesley@gmail.com" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=yXx_6O0AAAAJ&hl=en"
-  impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0001-5450-2506"
-  semantic         : # URL
-  pubmed           : # URL
-  researchgate     : # URL
+  # arxiv            : # URL - Update with the correct link to your profile
+  # googlescholar    : "https://scholar.google.com/citations?user=yXx_6O0AAAAJ&hl=en"
+  # impactstory      : # URL
+  # orcid            : "https://orcid.org/0000-0001-5450-2506"
+  # semantic         : # URL
+  # pubmed           : # URL
+  # researchgate     : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "gwesley96"
+  # github           : "gwesley96"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "greysonwesley"
+  # linkedin         : "greysonwesley"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
