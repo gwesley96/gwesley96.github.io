@@ -5,7 +5,7 @@ author_profile: true
 redirect_from:
   - /files/
   - /notes/
-published: true
+published: false
 layout: archive
 ---
 
