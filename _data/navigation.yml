@@ -9,8 +9,8 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Notes"
-    url: /files/
+  # - title: "Notes"
+  #   url: /files/
 
   # - title: "Wiki"
   #   url: "https://wiki.greysonwesley.com"
