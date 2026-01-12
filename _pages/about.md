@@ -13,4 +13,4 @@ I am a third-year mathematics PhD student at [The Ohio State University](https:/
 
 Research
 ======
-My interests include the role of (higher) category theory in quantum field theory—especially TQFTs and CFTs—and in other physical systems, such as condensed-matter systems.
+My interests include the role of (higher) category theory in quantum field theory—especially TQFTs and CFTs—and in other physical systems, such as condensed matter systems.
