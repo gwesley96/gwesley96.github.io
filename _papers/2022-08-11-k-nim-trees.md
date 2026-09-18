@@ -1,8 +1,8 @@
 ---
 title: "$$k$$-NIM Trees: A Characterization and Enumeration"
-collection: publications
+collection: papers
 category: manuscripts
-permalink: /publication/2022-08-11-k-nim-trees
+permalink: /papers/2022-08-11-k-nim-trees
 date: 2022-08-11
 venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2208.05450'

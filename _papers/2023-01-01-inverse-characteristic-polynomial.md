@@ -1,8 +1,8 @@
 ---
 title: "The Inverse Characteristic Polynomial Problem for Graphs over Finite Fields"
-collection: publications
+collection: papers
 category: manuscripts
-permalink: /publication/2023-01-01-inverse-characteristic-polynomial
+permalink: /papers/2023-01-01-inverse-characteristic-polynomial
 date: 2023-01-01
 venue: '</i>Published in <i>Recent Research in Polynomials'
 chapter: 'Chapter 6'

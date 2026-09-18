@@ -1,8 +1,8 @@
 ---
 title: "Counting Monic Polynomials Without Prescribed Factors Over $$\\mathbb{F}_q$$"
-collection: publications
+collection: papers
 category: manuscripts
-permalink: /publication/2022-09-05-counting-monic-polynomials
+permalink: /papers/2022-09-05-counting-monic-polynomials
 date: 2022-09-05
 author: 'Greyson Wesley'
 venue: 'Local manuscript'

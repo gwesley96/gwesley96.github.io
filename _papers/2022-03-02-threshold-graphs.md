@@ -1,9 +1,9 @@
 ---
 title: "Enumerating Threshold Graphs and Some Related Graph Classes"
-collection: publications
+collection: papers
 category: manuscripts
-# permalink: /publication/2022-10-01-paper-title-number-1
-permalink: /publication/2022-03-02-threshold-graphs
+# permalink: /papers/2022-10-01-paper-title-number-1
+permalink: /papers/2022-03-02-threshold-graphs
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2022-03-02
 venue: '</i>Published in <i>Journal of Integer Sequences'
