@@ -1,7 +1,7 @@
 ---
 title: "Notes"
 permalink: /files/
-author_profile: true
+author_profile: false
 redirect_from:
   - /files/
   - /notes/

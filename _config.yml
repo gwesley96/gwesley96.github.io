@@ -8,6 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
+timezone                 : "America/New_York"
 title                    : "Greyson C. Wesley"
 title_separator          : "-"
 name                     : &name "Greyson C. Wesley"

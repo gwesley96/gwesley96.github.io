@@ -8,4 +8,6 @@ group :jekyll_plugins do
   gem 'webrick', '~> 1.8'
 end
 
+gem 'csv'
+gem 'bigdecimal'
 gem 'github-pages'

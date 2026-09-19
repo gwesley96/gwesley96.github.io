@@ -1,7 +1,7 @@
 ---
 title: "TikZ"
 permalink: /tikz/
-author_profile: true
+author_profile: false
 redirect_from:
   - /tikz/
   - /notes/
