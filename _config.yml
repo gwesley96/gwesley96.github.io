@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 timezone                 : "America/New_York"
-title                    : "Greyson C. Wesley"
+title                    : "Greyson Wesley"
 title_separator          : "-"
-name                     : &name "Greyson C. Wesley"
+name                     : &name "Greyson Wesley"
 description              : &description "Mathematics PhD student"
 url                      : https://greysonwesley.com  # the base hostname & protocol for your site, e.g., "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,7 +23,7 @@ repository               : "gwesley96/gwesley96.github.io"
 author:
   # Biographic information
   avatar           : "2024ProfilePicture.png"
-  name             : "Greyson C. Wesley"
+  name             : "Greyson Wesley"
   # pronouns         : # example: "she/her"  
   bio              : "Mathematics PhD student"
   # location         : # "Earth"
